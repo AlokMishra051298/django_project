@@ -44,4 +44,12 @@ You have to decide the path of your project to start the project, I like want to
 <pre>
 <img src="/image/screenshot.png">
 </pre>
-<h4>:) be happy you had done lots now ready for coding part</h4>
+<h3>Step 5:- Creating the blog application</h3>
+To create the application you have run the command written below:
+<br><pre>
+<img src="/image/create_app.PNG">
+</pre>
+Now my updated project directory is seems like:
+<br><pre>
+<img src="/image/app_directory.PNG">
+</pre>
