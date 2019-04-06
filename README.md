@@ -25,7 +25,7 @@ You have to decide the path of your project to start the project, I like want to
 <pre>
 <img src="/image/desktop.PNG" width=90%>
 </pre>
-<p>When go inside that folder you will find as, there is a folder(name same as the parent folder) and a file name as <b>manage(it helps to run the server for you<b></p><br>
+<p>When go inside that folder you will find as, there is a folder(name same as the parent folder) and a file name as <b>manage(it helps to run the server for you</b></p><br>
 <pre>
 <img src="/image/desk_inside1.PNG" width=70%>
 </pre>
@@ -52,4 +52,25 @@ To create the application you have run the command written below:
 Now my updated project directory is seems like:
 <br><pre>
 <img src="/image/app_directory.PNG">
+</pre>
+<h3>Step 6:- Register the blog app</h3>
+<p>Now you have to open the <b>settings.py</b> file which is located at in your case <pre><b>---\---\----\projectname\projectname</b></pre> and in my case it is</p>
+<pre><b>C:\Users\HP\Desktop\itsalok\itsalok</b></pre>
+<p>and you have find the <b>INSTALLED_APPS</b> block of code</p>
+<pre>
+<img src="/image/register_app.PNG">
+</pre>
+<p>and add <b>'blog',</b> (as highlighted below in image) as given below and you will add same as you named your app during <b>Step 5</b></p>
+<br><pre>
+<img src="/image/register_app1.PNG" width=40%>
+</pre>
+<h3>Step 7:- Specify the database</h3>
+<p>Now in the same file you have to find the block named as <b>DATABASES</b> and <br>
+      <b>add the command given below</b> or highlighted in the image:-</p>
+<pre><b>'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),</b></pre>
+<pre><img src='/image/specify_db.PNG'></pre>
+<h3>Step 8:Change the time zone</h3>
+<p>If you are from India then you have to change the time to <b>IST</b> which stands for <b>Indian Standard Time</b> and it is done in same setting.py file you can see below,</p>
+<pre>
+<img src='image/time_zone.PNG'>
 </pre>
