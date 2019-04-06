@@ -1,6 +1,6 @@
 # django_project
 <h3>Pre-requisites</h3>
-<ul>Python (basics)</ul>
+<pre>Python (basics)</pre>
 
 <h3>Step 1:- Installation of Pip(if not installed)</h3>
 <p>To install the pip make sure python is installed in system if not then first setup the python from https://www.python.org/downloads/</p>
@@ -17,9 +17,31 @@
 To install the Django you just need to run this command,
 <pre> <b>pip install Django</b></pre>
 <h3>Step 3:- Start a project</h3>
-You have to decide the path of your project to start the project, I like want to make it ease for myself so I prefered here to make it on desktop
-<pre>   <img src="/image/start_project.PNG">
+You have to decide the path of your project to start the project, I like want to make it ease for myself so I prefered here to make it on desktop<br>
+<pre>   <img src="/image/start_project.PNG"></pre>
 
-After it when you look at your path the you find a folder with projectname as you specified but in 
-<b>my case folder is on desktop with name "itsalok"</b></pre>
-<img src="/image/desktop.PNG" width=100%>
+<p>After it when you look at your path the you find a folder with projectname as you specified but in <br>
+<b>my case folder is on desktop with name "itsalok"</b></p><br>
+<pre>
+<img src="/image/desktop.PNG" width=90%>
+</pre>
+<p>When go inside that folder you will find as, there is a folder(name same as the parent folder) and a file name as <b>manage(it helps to run the server for you<b></p><br>
+<pre>
+<img src="/image/desk_inside1.PNG" width=70%>
+</pre>
+<p>When you move into the folder inside folder you will find the 4 files named as <br>
+ <b>__init__ ,settings, urls, wsgi</b></p><br>
+<pre>
+<img src="/image/inside_inside.PNG">
+</pre>
+
+<h3>Step 4:- Start the server</h3>
+<p>To start the server you have to run that command</p>
+<pre>
+<img src="/image/runserver.PNG">
+</pre>
+<br><p>After executing that command you have to your browser and search for <b>http://127.0.0.1:8000/</b> then you will get as below</p>
+<pre>
+<img src="/image/screenshot.png">
+</pre>
+<h4>:) be happy you had done lots now ready for coding part</h4>
