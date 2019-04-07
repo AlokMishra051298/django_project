@@ -98,5 +98,5 @@ the relationship instance in that relationship set.
 <p>And most important we have know about notations:-
 <img src='/image/uml.PNG'></p>
 <p>There is a description video link below of UML class diagrams please check it first before going into deep
-of creating code for your own specific model</p>
-<pre>https://www.youtube.com/watch?v=UI6lqHOVHic</pre>
+of creating code for your own specific model<br>
+https://www.youtube.com/watch?v=UI6lqHOVHic</p>
