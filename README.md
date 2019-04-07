@@ -74,3 +74,29 @@ Now my updated project directory is seems like:
 <pre>
 <img src='image/time_zone.PNG'>
 </pre>
+<h2>Ready to make models</h2>
+<p>To make models we need some basics related to models, relationships among objects, Foreign keys and some other concepts.</p>
+<pre>Foreign key:- When an attribute of one table refer to the primary key of another table, then that attribute
+is said as Foreign key.
+
+Relationship:- When the tables are connected to each other.
+
+1 to 1 relationship:- When one row in a table may be linked with only one row in another table and vice versa.
+
+1 to m relationship:- When one row in the table may linked with many rows in another table.
+
+m to 1 relationship:- When many rows from a table is linked with single row of another table. 
+
+m to m relationship:- When many rows from a table are linked with many rows of another table.
+
+Total participation:- It specifies that each entity in the entity set must compulsorily participate 
+in at least one relationship instance in that relationship set.
+
+Partial participation:- It specifies that each entity in the entity set may or may not participate in 
+the relationship instance in that relationship set.
+</pre>
+<p>And most important we have know about notations:-
+<img src='/image/uml.PNG'></p>
+<p>There is a description video link below of UML class diagrams please check it first before going into deep
+of creating code for your own specific model</p>
+<pre>https://www.youtube.com/watch?v=UI6lqHOVHic</pre>
