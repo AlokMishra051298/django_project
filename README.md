@@ -70,7 +70,7 @@ Now my updated project directory is seems like:
 <pre><b>'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),</b></pre>
 <pre><img src='/image/specify_db.PNG'></pre>
 <h3>Step 8:Change the time zone</h3>
-<p>If you are from India then you have to change the time to <b>IST</b> which stands for <b>Indian Standard Time</b> and it is done in same setting.py file you can see below,</p>
+<p>If you are from India then you have to change the time to <b>'Asia/Kolkata'</b> and it is done in same setting.py file you can see below,</p>
 <pre>
 <img src='image/time_zone.PNG'>
 </pre>
@@ -100,3 +100,31 @@ the relationship instance in that relationship set.
 <p>There is a description video link below of UML class diagrams please check it first before going into deep
 of creating code for your own specific model<br>
 https://www.youtube.com/watch?v=UI6lqHOVHic</p>
+# I have to add model here 
+<p>As we make the model according to it we have to code into models.py</p>
+<pre>
+<img src="/image/models_py.PNG">
+</pre>
+# Create tables for models in your database
+<br>To create the tables for the models you have to goto your command line as run the given command(highlighted one) below:-
+<img src="/image/make_mig.PNG">
+<p>Now Django created the migration file you to apply to your database for this type and run the highlighted command below:-</p>
+<img src="/image/migrate.PNG">
+
+# Django Admin
+<p>To add, edit and delete the posts we've just modeled, we will use Django admin.<br>
+Let's open the blog/admin.py file in the code editor and replace its contents with this:
+</p>
+<pre><img src="/image/admin.PNG">.
+</pre>
+<p>As you can see, we import (include) the Post model defined in the previous chapter. To make our 
+model visible on the admin page, we need to register the model with admin.site.register(Post).
+OK, time to look at our Post model. Remember to run python manage.py runserver in the console to run
+the web server. Go to your browser and type the address http://127.0.0.1:8000/admin/. You will see a login page like this:</p>
+<pre>
+<img src="/image/dj_admin.PNG"></pre>
+<p>To Log in into it we have to create the <b>Superuser- a user who have control over everything on the site.</b> Go back to command line and type the following command</p>
+<pre>python manage.py createsuperuser</pre>
+<pre><img src="/image/superuser.PNG"></pre>
+<p>Return to your browser. Log in with the superuser's credentials you chose; you should see the Django admin dashboard.</p>
+<pre><img src="/image/dashboard.PNG"></pre>
